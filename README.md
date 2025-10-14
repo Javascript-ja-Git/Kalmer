@@ -9,5 +9,5 @@ See on minu **projekt**.
 - Kolmas punkt
 
 1. Esimene nummerdtud punkt
-1. Teine np
+1. Teine np. ctrl S - salvestamine
 1. Kolmas np. kui panna 111 siis saab hiljem lisada ja nr muutuvad automaatselt.
