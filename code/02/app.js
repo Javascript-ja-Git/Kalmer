@@ -34,6 +34,12 @@ const F = C * 9 / 5 + 32
 
 alert(`Temperatuur Farenheit skaalal: ` + F)*/
 
+//Tingimuslaused
 
+const color = prompt(`Mis värvi on foori tuli?`)
 
-
+if (color === `roheline`) {
+    alert(`võid üle tee minna`)
+} else {
+    alert(`pead veel ootama`)
+}
