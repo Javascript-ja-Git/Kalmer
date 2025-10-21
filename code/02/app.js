@@ -36,10 +36,73 @@ alert(`Temperatuur Farenheit skaalal: ` + F)*/
 
 //Tingimuslaused
 
-const color = prompt(`Mis värvi on foori tuli?`)
+/*const color = prompt(`Mis värvi on foori tuli?`)
 
 if (color === `roheline`) {
     alert(`võid üle tee minna`)
 } else {
     alert(`pead veel ootama`)
+}*/
+
+/*const color = prompt(`Mis värvi on foori tuli?`)
+if (color=== `roheline`) {
+    alert(`võid edasi sõita`)
+} else if (color === `kollane`) {
+    alert(`pead veel tükk aega ootama`)
+} else if (color === `punane`) {
+    alert(`oota veel pisut`)
+} else {
+    alert(`sellist värvi ei tohiks fooris olla`)
+}*/
+
+/*const password = prompt(`sisesta oma parool`)
+const existingPassword = `admin123`
+if (password === existingPassword) {
+    alert(`Tere tulemast`)
+} else {
+    alert(`Vale parool`)
+}*/
+
+/*const password = prompt(`sisesta oma parool`)
+const existingPassword = `admin123`
+if (password !== existingPassword) {
+    alert(`Vale parool`)
+} else {
+    alert(`Õige parool`)
+}*/
+
+/*const vanus = prompt(`Sisesta oma vanus`)
+const täisealine = 18
+if (vanus >= täisealine) {
+    alert(`Täiseline`)
 }
+else {
+    alert(`Alaeline`)
+}*/
+
+/*const age = prompt(`Sisesta oma vanus`)
+alert(typeof age)*/
+
+//KALKULAATOR
+
+const number1 = Number(prompt(`Sisesta esimene arv`))
+const number2 = Number(prompt(`Sisesta teine arv`))
+
+const operator = prompt(`Sisesta teha? (+,-,/,*)`)
+
+if (operator ===`+`) {
+alert(number1+number2)
+} 
+else if (operator ===`-`) {
+alert(number1-number2)
+}
+else if (operator ===`*`) {
+    alert(number1*number2)
+}
+else if (operator ===`/`) {
+    alert(number1/number2)
+}
+else {
+    alert(`seda tehet ei saa teha`)
+}
+
