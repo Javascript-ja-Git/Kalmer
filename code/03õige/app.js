@@ -121,3 +121,81 @@ if (player1===player2) {
         } else {
             alert(`mängija 2 võitis`)
         }*/
+
+//FUNKTSIOONID
+
+/*function add(a, b) {
+    const sum = a+b;
+    return sum;
+}
+const result = add(2, 3);
+console.log(result);*/
+
+/*function add(a, b) {
+    const sum = a+b;
+    return sum;
+}
+const result = add(2, 3);
+console.log(add (2,3));
+console.log(add (20,30));
+console.log(add (200,3));*/
+
+//kasutajanimega tervitus
+
+/*function greeting(name) {
+const message = `Tere, ` + name;
+return message;
+}
+
+console.log(greeting(`Martti`)); */
+
+//kasutaja käest nime küsimine
+
+/*function greeting(name) {
+const message = `Tere, ` + name;
+return message;
+}
+
+const username = prompt(`Mis on sinu nimi`);
+const message = greeting(username);
+alert(message);*/
+
+// Arvuta kolmnurga pindala
+
+/*function triangleArea(base, height) {
+    const area = (base * height) / 2;
+    return area;
+}
+console.log(triangleArea (2,3));
+console.log(triangleArea (20,30));*/
+
+// pindala arvutamine kui tulem on negatiivne
+
+/*function triangleArea(base, height) {
+    if (base <= 0) {
+        return `sellist kolmnurke ei eksisteeri`;
+     }   else if (height<= 0) {
+        return `sellist kolmnurke ei eksisteeri`;
+     } 
+     const area = (base * height) / 2;
+    return area;
+}
+console.log(triangleArea (8,4));
+console.log(triangleArea (-8,4));*/
+
+/*function triangleArea(base, height) {
+        if (base <= 0 || height <= 0) {
+        return `sellist kolmnurke ei eksisteeri`;
+     }
+     const area = (base * height) / 2;
+    return area;
+}
+console.log(triangleArea (8,4));
+console.log(triangleArea (-8,4));*/
+
+// miski näide :)
+
+function greeting(name) {
+    const message = `Tere, `+ name
+    const result = greeting(`Marti`)
+} miskit ei toimi :)
