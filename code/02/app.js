@@ -85,7 +85,7 @@ alert(typeof age)*/
 
 //KALKULAATOR
 
-const number1 = Number(prompt(`Sisesta esimene arv`))
+/*const number1 = Number(prompt(`Sisesta esimene arv`))
 const number2 = Number(prompt(`Sisesta teine arv`))
 
 const operator = prompt(`Sisesta teha? (+,-,/,*)`)
@@ -104,5 +104,26 @@ else if (operator ===`/`) {
 }
 else {
     alert(`seda tehet ei saa teha`)
-}
+}*/
 
+/*const password = prompt(`sisesta parool`)
+
+const existingPassword = `1234`
+
+if (password === 1234) {
+    alert(`parool on õige, tere tulemast!`)
+} else { 
+    (`vale parool`)
+ } 
+miskit siin vale hetkel*/
+
+/*const password = `1234`
+if (password ) {
+    alert(`something`);
+} else {
+    alert(`not something`)
+}*/
+
+for (let i = 0; i<5; i++) {
+    console.log(i);
+}
