@@ -7,7 +7,9 @@
 -  Operaatorid
    -  võrdlusoeraatorid (>, <, ==, ===) != hüüjumärk keerab võrdluse vastuse tagurpidi - NOT
 - tsüklid
-  - for  - korduvad tegevused
+  - for  - korduvad tegevused. koosneb kolmest osast. muutuja, tingimus ja kood
+  - while - täidab koodiblokki seni kuni on täidetud. koosneb kahest osast - tingimus, suurem/väiksem ja koodiblokk
+  - do while - tehakse üks kord ikka kogu tsükkel läbi
 ## Märksõnu teisest loengust
 - MD mark down, märgendi keel. samuti on html märgendi keel.
 - 
