@@ -57,7 +57,7 @@ while (i <=count) {
     sum = sum +i
     console.log(i, sum);
     i++;
-} */
+}*/ 
 
 //Leia väärtus kui i ei ole 3
 
@@ -195,7 +195,11 @@ console.log(triangleArea (-8,4));*/
 
 // miski näide :)
 
-function greeting(name) {
-    const message = `Tere, `+ name
-    const result = greeting(`Marti`)
-} miskit ei toimi :)
+/*function greeting(name) {
+const message = `Tere, ` + name;
+console.log(message)
+return;
+}
+const result = greeting(`Martti`);
+
+console.log(result);*/
