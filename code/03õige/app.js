@@ -203,3 +203,42 @@ return;
 const result = greeting(`Martti`);
 
 console.log(result);*/
+
+//--- Neljanda loengu algus
+
+/*for (let i = 0; i < 10; i = i + 2) {
+    console.log(i);
+}*/
+
+/*let i = 0
+while (i<10) {
+    console.log(i);
+    i=i+2;
+}*/
+
+/*let i = 0
+do {
+    console.log(i);
+    i = i +2
+} while (i<10);*/
+
+/*function divide(a, b) {
+    const result = a / b;
+    return result
+}
+const result = divide (4, 2);
+
+console.log(result)*/
+
+/*function divide(a, b) {
+    if (b===0) {
+        return `Nulliga ei saa jagada`;
+    }
+    const result = a / b;
+    return result
+}
+const result = divide (4, 0);
+
+console.log(result)*/
+
+
