@@ -179,11 +179,57 @@ console.log(dice(maxNumber)); */
 
 // JUHUSLIKU NIME VALIMINE
 
-const names = [`Jaan`, `Juta`, `Kalle`, `Malle`, `Juhan`, `Tiina`];
+/*const names = [`Jaan`, `Juta`, `Kalle`, `Malle`, `Juhan`, `Tiina`];
 
 function dice(Number) {
 const randomNumber= Math.ceil(Math.random() *Number);
     return randomNumber;
 }
 const randomNumber = dice(names.length)
-console.log(names[randomNumber -1]); //kolmanda nime puhul 4-1
+console.log(names[randomNumber -1]); //kolmanda nime puhul 4-1*/
+
+/*const names = [`üks`, `kaks`, `kolm`, `neli`];
+//kõikide nimede kuvamine konsooli, eraldi reale
+for (let i=0; i<names.length; i++) {
+
+console.log(names[i]);
+}*/
+
+/*function logElements(array) {
+for (let i=0; i<array.length; i++) {
+console.log(array[i]);
+}
+}
+
+const names = [`üks`, `kaks`, `kolm`, `neli`];
+const numbers = [1, 2, 5, 7, 9, 0];
+
+logElements(names);
+logElements (numbers);*/
+
+/*function logElements(array) {
+for (let i=0; i<array.length; i++) {
+console.log(array[i]);
+}
+}
+
+const names = [`üks`, `kaks`, `kolm`, `neli`];
+const numbers = [1, 2, 5, 7, 9, 0];
+
+logElements(names);
+const result = logElements (numbers); //sellisel juhul tuleb undefined
+console.log(result);*/
+
+/*function logElements(array) {
+for (let i=0; i<array.length; i++) {
+console.log(array[i]);
+}
+return array.length;
+}
+
+const names = [`üks`, `kaks`, `kolm`, `neli`];
+const numbers = [1, 2, 5, 7, 9, 0];
+
+logElements(names);
+const result = logElements (numbers); //sellisel juhul tuleb undefined
+console.log(result)*/
